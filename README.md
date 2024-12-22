@@ -43,7 +43,7 @@ and set it up to using your new Github repository.
 2. Add a custom domain to the Netlify project: `id.yourdomain.com` 
 (you can use any subdomain instead of `id`, actually; up to you).
 
-3. Configure the required DNS record using your domain management dashboard. 
+3. Follow Netlify's instructions to configure the necessary DNS record.
 
 ### Update your Nostr profile
 
