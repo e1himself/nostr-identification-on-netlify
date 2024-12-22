@@ -1,5 +1,7 @@
 # Nostr Identification on Netlify (for free) 
 
+<img src="./_docs/demo.png" width="300" alt="Example demonstrating a user named Luke Skywalker with a checkmark next to its NIP-05 identifier: id.lukeskywalker.com">
+
 Self-host your Nostr profile [NIP-05] identification on [Netlify]. For free!
 
 ## Use-case
@@ -8,10 +10,6 @@ Self-host your Nostr profile [NIP-05] identification on [Netlify]. For free!
 - You host a website on it, but you can't or don't want to add the `nostr.json` file to it 
   (e.g. the website is hosted on a blogging platform)
 - You want to identify your Nostr profile as the owner of the domain: `id.lukeskywalker.com`
-
-<center>
-    <img src="./_docs/demo.png" width="300" >
-</center>
   
 ## Instructions
 
