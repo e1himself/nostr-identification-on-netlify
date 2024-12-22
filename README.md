@@ -62,27 +62,37 @@ Here, take a donut 🍩.
 
 ## FAQ
 
-**Host on Netlify is not really *self*-hosting** 
+<details>
+  <summary>
+    <strong>Host on Netlify is not really <em>self</em>-hosting</strong>
+  </summary>
 
-Yes, you're right. Host it on your own server for maximum security.
+  <br>
+  Yes, you're right. Host it on your own server for maximum security.
+  
+  Though with this Netlify setup you're pretty much in full control 
+  of your verification, unlike having a _nostrcheck.me_ or a _nostr.com_ identifier. 
+  You don't depend on third-parties to identify you. _That's how Nostr is supposed to work!_
+  
+  This might be a sweet spot for many.
+</details>
 
-Though with this Netlify setup you're pretty much in full control 
-of your verification, unlike having a _nostrcheck.me_ or a _nostr.com_ identifier. 
-You don't depend on third-parties to identify you. _That's how Nostr is supposed to work!_
+<details>
+  <summary>
+    <strong>I want my identifier to use the main domain name</strong>
+  </summary>
 
-This might be a sweet spot for many.
-
-**I want my identifier to use the main domain name**
-
-This is the limitation of hosting the identification outside of your main website.
-
-If you don't like having the `id.` prefix in your identifier, the only was is to
-make the `.well-known/nostr.json` file accessible on your main domain. 
-If you can do that, that's even better.
-
-Also, don't forget about CORS headers too.
-See https://nostr.how/en/guides/get-verified for detailed instructions. 
-
+  <br>
+  This is the limitation of hosting the identification outside of your main website.
+  
+  If you don't like having the `id.` prefix in your identifier, the only was is to
+  make the `.well-known/nostr.json` file accessible on your main domain. 
+  If you can do that, that's even better.
+  
+  Also, don't forget about CORS headers too.
+  See https://nostr.how/en/guides/get-verified for detailed instructions. 
+</details>
+  
 ## Credits
 
 Implemented by 👾 [Ivan Voskoboinyk](https://voskoboinyk.com/).
