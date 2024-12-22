@@ -1,8 +1,8 @@
 # Nostr Identification on Netlify
 
-<img src="./_docs/demo.png" width="300" alt="Example demonstrating a user named Luke Skywalker with a checkmark next to its NIP-05 identifier: id.lukeskywalker.com">
-
 Self-host your Nostr profile [NIP-05] identification on [Netlify]. For free!
+
+<img src="./_docs/demo.png" width="300" alt="Example demonstrating a user named Luke Skywalker with a checkmark next to its NIP-05 identifier: id.lukeskywalker.com">
 
 ## Use-case
 
