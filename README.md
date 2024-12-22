@@ -28,7 +28,8 @@ You can convert your `npub...` key to the hex format on https://nostrcheck.me/co
 
 **3. Setup the redirect**
 
-Edit `public/_redirects`, and replace the Github repo URL with your website URL.  This is where the visitors will land when pasting your identifier into their browser address line.  
+Edit `public/_redirects`, and replace the Github repo URL with your website URL. 
+This is where the visitors will land when pasting your identifier into their browser address line.  
    
 **4. Push changes to Github**
 
@@ -53,7 +54,9 @@ Read about it in the [NIP-05] spec.
 
 ### ✅ Done
 
-Congrats! Though it wasn't that difficult, take a moment to celebrate it. You deserve it! Here, take a donut 🍩. 
+Congrats! Though it wasn't that difficult, take a moment to celebrate it. You deserve it! 
+
+Here, take a donut 🍩. 
 
 😉
 
@@ -61,9 +64,13 @@ Congrats! Though it wasn't that difficult, take a moment to celebrate it. You de
 
 **Host on Netlify is not really *self*-hosting** 
 
-Yes, you're right. :) 
+Yes, you're right. Host it on your own server for maximum security.
 
-Still, you're pretty much in full control of your verification, unlike having a _nostrcheck.me_ or a _nostr.com_ identifier.  
+Though with this Netlify setup you're pretty much in full control 
+of your verification, unlike having a _nostrcheck.me_ or a _nostr.com_ identifier. 
+You don't depend on third-parties to identify you. _That's how Nostr is supposed to work!_
+
+This might be a sweet spot for many.
 
 [NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md
 [Netlify]: https://www.netlify.com/
