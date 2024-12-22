@@ -8,7 +8,7 @@ Self-host your Nostr profile [NIP-05] identification on [Netlify]. For free!
 
 - You own a personal domain (e.g. `lukeskywalker.com`)
 - You host a website on it, but you can't or don't want to add the `nostr.json` file to it 
-  (e.g. the website is hosted on a blogging platform)
+  For example, the website is hosted on a blogging platform, like [Ghost].
 - You want to identify your Nostr profile as the owner of the domain: `id.lukeskywalker.com`
   
 ## Instructions
@@ -72,9 +72,6 @@ You don't depend on third-parties to identify you. _That's how Nostr is supposed
 
 This might be a sweet spot for many.
 
-[NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md
-[Netlify]: https://www.netlify.com/
-
 **I want my identifier to use the main domain name**
 
 This is the limitation of hosting the identification outside of your main website.
@@ -89,3 +86,7 @@ See https://nostr.how/en/guides/get-verified for detailed instructions.
 ## Credits
 
 Implemented by 👾 [Ivan Voskoboinyk](https://voskoboinyk.com/).
+
+[NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md
+[Netlify]: https://www.netlify.com/
+[Ghost]: https://ghost.org/
