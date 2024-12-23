@@ -7,7 +7,7 @@ Self-host your Nostr profile [NIP-05] identification on [Netlify]. For free!
 ## Use-case
 
 - You own a personal domain (e.g. `lukeskywalker.com`)
-- You host a website on it, but you can't or don't want to add the `nostr.json` file to it 
+- You host a website on it, but you can't or don't want to add the `nostr.json` file to it.
   For example, the website is hosted on a blogging platform, like [Ghost].
 - You want to identify your Nostr profile as the owner of the domain: `id.lukeskywalker.com`
   
